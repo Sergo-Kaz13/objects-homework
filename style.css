@@ -1,0 +1,129 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+input[type="text"] {
+    font-family: inherit; /* 1 */
+    font-size: inherit; /* 1 */
+    line-height: inherit; /* 1 */
+    margin: 0; /* 2 */
+
+    display: block;
+  width: 50%;
+  min-width: 300px;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+  }
+  input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
+  input:disabled,
+  input[readonly] {
+  background-color: #f5f5f5;
+  opacity: 1;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100vh;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    background: rgb(212, 161, 161);
+    border: 2px solid rgb(85, 43, 36);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 5px 15px rgb(138, 134, 134);
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 18px;
+    border-bottom: 3px solid rgb(58, 56, 56);
+    padding: 5px;
+    margin-bottom: 20px;
+    background: rgb(236, 233, 233);
+    box-shadow: 0 0 10px blanchedalmond;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 30px;
+}
+.block {
+    max-width: 60%;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: rgb(211, 206, 206);
+    box-shadow: 0 2px 5px silver;
+}
+.info-car {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(250, 249, 247);
+}
+.info-car > li {
+    margin-bottom: 10px;
+}
+.drivers-name {
+    padding-left: 20px;
+}
+.toster::after {
+    content: 'sadaqdq';
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 85vh;
+    right: 50px;
+    width: 200px;
+    height: 60px;
+    border: 3px solid green;
+    box-shadow: 0 0 15px grey;
+    border-radius: 20px;
+    background: rgb(146, 206, 91);
+}
